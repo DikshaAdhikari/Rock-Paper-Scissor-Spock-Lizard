@@ -12,5 +12,6 @@ Lizard eats Paper
 Paper disproves Spock
 Spock vaporizes Rock
 (and as it always has) Rock crushes Scissors
+Also visit the link https://www.youtube.com/watch?v=pIpmITBocfM It's fun indeed.
 
 ![](design/desktop.jpg)
