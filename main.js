@@ -129,8 +129,6 @@ for (var i = 0; i <= 4; i++) {
 function compare(user, bot) {
     if (user === bot) {
         document.querySelector(".declare h1").innerText = "DRAW";
-        document.querySelector('.player').classList.remove("win");
-        document.querySelector('.bot').classList.remove("win");
     }
 
     if ((user === 'yellow' && bot === 'blue') || (user === 'blue' && bot === 'red') || (user === 'red' && bot === 'purple') || (user === 'purple' && bot === 'cyan') || (user === 'cyan' && bot === 'yellow') || (user === 'yellow' && bot === 'purple') || (user === 'purple' && bot === 'blue') || (user === 'blue' && bot === 'cyan') || (user === 'cyan' && bot === 'red') || (user === 'red' && bot === 'yellow')) {
@@ -157,5 +155,7 @@ const playAgain = document.querySelector(".play-again");
 playAgain.addEventListener("click", () => {
     document.querySelector(".options").classList.remove("visible");
     document.querySelector(".final").classList.add("visible");
+    document.querySelector('.player').classList.remove("win");
+    document.querySelector('.bot').classList.remove("win");
     document.querySelector(".score h1").innerText = val;
 });
