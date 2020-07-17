@@ -1,4 +1,4 @@
-# Rock-Paper-Scissor-Spock-Lizard
+# Rock-Paper-Scissors-Spock-Lizard
 Each player picks a variable and reveals it at the same time. The winner is the one who defeats the others. In a tie, the process is repeated until a winner is found.
 
 
