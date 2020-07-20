@@ -116,6 +116,7 @@ body {
     border: 12px solid;
     position: absolute;
     background-color: white;
+    box-shadow: 5px 5px 3px 1px rgb(175, 171, 171) inset;
 }
 
 .icon>img:hover {
@@ -232,7 +233,7 @@ body {
 }
 
 .win {
-    box-shadow: 0 0 0 80px hsl(229, 25%, 31%), 0 0 0 160px hsl(228, 29%, 26%), 0 0 0 240px hsl(229, 42%, 22%);
+    box-shadow: 5px 5px 3px 1px rgb(175, 171, 171) inset, 0 0 0 80px hsl(229, 25%, 31%), 0 0 0 160px hsl(228, 29%, 26%), 0 0 0 240px hsl(229, 42%, 22%);
     transition: all 500ms ease-out;
 }
 
@@ -302,6 +303,6 @@ body {
     }
 
     .win {
-        box-shadow: 0 0 0 10px hsl(229, 25%, 31%), 0 0 0 20px hsl(228, 29%, 26%), 0 0 0 30px hsl(229, 42%, 22%);
+        box-shadow: 5px 5px 3px 1px rgb(175, 171, 171) inset, 0 0 0 10px hsl(229, 25%, 31%), 0 0 0 20px hsl(228, 29%, 26%), 0 0 0 30px hsl(229, 42%, 22%);
     }
 }
