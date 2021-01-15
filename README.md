@@ -14,6 +14,6 @@ Spock vaporizes Rock
 (and as it always has) Rock crushes Scissors.
 
 ###
-Also visit the link https://www.youtube.com/watch?v=pIpmITBocfM It's fun indeed.
+Also visit the link https://www.youtube.com/watch?v=pIpmITBocfM
 
 ![](design/desktop.jpg)
